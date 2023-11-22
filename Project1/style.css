@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: inter;
+}
+body{
+    background-color: #132B50;
+    
+}
+.login_screen{
+    background-color: whitesmoke;
+    width: 700px;
+    height: 700px;
+    margin: 100px auto;
+    border-radius: 30px;
+    padding: 85px;
+}
+div.userscreen{
+    display: flex;
+    margin: 32px 0px;
+}
+
+#pp{
+    width: 78px;
+    height: 78px;
+}
+div.id{
+    padding-left:30px;
+}
+span.acc{
+    display: block;
+    font-size: 22px;
+}
+span.name{
+    font-weight: bold;
+    font-size: 32px;
+}
+.pss{
+    margin-top: 10px;
+    position: relative;
+}
+.key{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    margin: 16px;
+    top:0;
+}
+.eyes{
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+input.password{
+    border-radius: 8px;
+    padding: 16px 56px;
+    width: 371px;
+    height: 59px;
+    border-color: #132B50;
+    background-color:transparent;
+}
+.last
+{
+  display: flex;
+  margin-top: 32px;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+.button{
+    background-color:#132B50; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    width: auto;
+    height: 51px;
+    align-items: flex-start;
+    display: flex;
+    box-sizing: border-box;    
+}
+.span{
+    display: inline-flex;
+    flex-grow: 0.38;
+    padding-top: 8px;
+}
+.bottom{
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.link:link{
+    color: #132B50;;
+}
